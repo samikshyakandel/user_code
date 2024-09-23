@@ -1,0 +1,39 @@
+class ApiUrl {
+  static String baseUrl = "BASE_URL";
+
+  static String loginUrl = "user/userSignin";
+  static String signupUrl = "user/userSignup";
+  static String homeUrl = "home";
+  static String addRemoveWishlistUrl = "home/addRemoveWishlist";
+  static String currenyIconUrl = "home/currenyIcon";
+  static String cartCountUrl = "cart/cartCount";
+  static String addUpdateCartUrl = "cart/addUpdateCart";
+  static String deleteCartProductUrl = "cart/deleteCartProduct";
+  static String getAllcontryUrl = "account/getAllcontry";
+  static String getAllStateUrl = "account/getAllState";
+  static String getAddressListUrl = "account/getAddressList";
+  static String deleteAdderssUrl = "account/deleteAdderss";
+  static String getOrderListUrl = "account/getOrderList";
+  static String addUpdateAddressUrl = "account/addUpdateAddress";
+  static String getOrderDetailUrl = "account/getOrderDetail";
+  static String cancelOrderUrl = "account/cancelOrder";
+  static String addReviewUrl = "account/addReview";
+  static String allCaterogyUrl = "home/getAllCaterogy";
+  static String subCaterogyUrl = "home/categoryDetail";
+  static String favoriteListUrl = "account/getWishlist";
+  static String accountUrl = "account";
+  static String updateProfileUrl = "account/updateProfile";
+  static String changePasswordUrl = "account/changePassword";
+  static String orderReturnUrl = "account/orderReturn";
+  static String cartListUrl = "cart";
+  static String productDetailsUrl = "home/getProductDetail";
+  static String changeVarientUrl = "home/changeVarient";
+  static String placeOrderUrl = "cart/placeOrder";
+  static String promocodeUrl = "cart/verifyPromocode";
+  static String searchAllUrl = "home/searchAll";
+  static String searchSuggationsUrl = "home/searchSuggations";
+  static String offerAllProductsUrl = "home/getOfferProductList";
+  static String hotAllProductsUrl = "home/getHotProductList";
+  static String filterAttributeUrl = "home/attributeTree";
+  static String deleteAccountUrl = "account/deleteAccount";
+}
